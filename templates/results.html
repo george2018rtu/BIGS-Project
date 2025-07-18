@@ -6,8 +6,18 @@
         body { 
             font-family: Sorts Mill Goudy; 
             text-align: center; 
-            margin-top: 50px; 
+            margin-top: 0px; 
+            margin-left: 0px;
+            margin-right: 0px;
         }
+        header {
+        padding: 25px;
+        text-align: left;
+        background-color: #004a80;
+        color: white;
+        font-size: 1.8rem;
+        font-family: Sorts Mill Goudy;
+    }
         h1 { 
             color: #004a80; 
         }
@@ -30,7 +40,7 @@
     </style>
 </head>
 <body>
-    <h1>We recommend: {{ recommendation }}</h1>
+    <header>We recommend: {{ recommendation }}</header>
     <a href="page1.html" class="btn">Restart Quiz</a>
 </body>
 </html>
